@@ -1,5 +1,5 @@
 def arabic_to_roman(arabic):
-    romans = list(integers)
+    romans = list(dict(I=1, V=5, X=10, L=50, C=100, D=500, M=1000))
     str_arabic = arabic[::-1]
     str_arabic_len = len(str_arabic)
     result = str()
